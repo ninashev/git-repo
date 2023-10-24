@@ -6,6 +6,7 @@
 \newcommand{\dg}[1]{\todo[inline]{DG: #1}}
 
 \usepackage{xcolor}
+\usepackage{wrapfig}
 
 % Pollock
 \definecolor{C0}{HTML}{000000}
@@ -33,31 +34,33 @@ urlcolor=C2%
 
 \usepackage{setspace}
 
-% REDUCE FIGURE SPACE
-\renewcommand\floatpagefraction{.9}
-\renewcommand\topfraction{.9}
-\renewcommand\bottomfraction{.9}
-\renewcommand\textfraction{.1}
-\setcounter{totalnumber}{50}
-\setcounter{topnumber}{50}
-\setcounter{bottomnumber}{50}
+% Reduce figure space
+% \renewcommand\floatpagefraction{.9}
+% \renewcommand\topfraction{.9}
+% \renewcommand\bottomfraction{.9}
+% \renewcommand\textfraction{.1}
+% \setcounter{totalnumber}{50}
+% \setcounter{topnumber}{50}
+% \setcounter{bottomnumber}{50}
 
-\makeatletter
-\renewcommand{\section}{\@startsection{section}{1}{0mm}
-{1.0\baselineskip}%
-{0.2\baselineskip}%
-{\normalfont\large\bfseries}}%
-\makeatother
-\makeatletter
-\renewcommand{\subsection}{\@startsection{subsection}{2}{\z@}%
-{0.4\baselineskip}%
-{0.5ex \@plus .2ex}{\normalfont\normalsize\bfseries}}%
-\makeatother
-\makeatletter
-\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{\z@}%
-{0.4\baselineskip}%
-{0.5ex \@plus .2ex}{\normalfont\normalsize\bfseries}}%
-\makeatother
+% \makeatletter
+% \renewcommand{\section}{\@startsection{section}{1}{0mm}
+% {1.0\baselineskip}%
+% {0.2\baselineskip}%
+% {\normalfont\large\bfseries}}%
+% \makeatother
+% 
+% \makeatletter
+% \renewcommand{\subsection}{\@startsection{subsection}{2}{\z@}%
+% {0.4\baselineskip}%
+% {0.5ex \@plus .2ex}{\normalfont\normalsize\bfseries}}%
+% \makeatother
+% 
+% \makeatletter
+% \renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{\z@}%
+% {0.4\baselineskip}%
+% {0.5ex \@plus .2ex}{\normalfont\normalsize\bfseries}}%
+% \makeatother
 
 % \renewcommand{\baselinestretch}{1.5}
 
@@ -69,7 +72,6 @@ urlcolor=C2%
   {\end{itemize}}
 
 \begin{document}\color{C0}
-
 
 \noindent
 To: Natasha Timofeyuk \\
@@ -84,17 +86,11 @@ on Few-Body Problems in Physics
   \LARGE Proposal for the\newline 26th
   European Few-Body Conference\newline
   to be held in Prague, Czech Republic%
-  % \textbf{\Large Proposal for the 26th
-  %   European Few-Body Conference\newline
-  %   to be held in Prague, Czech Republic}%
 }
 
 \bigskip
 % \renewcommand{\baselinestretch}{1.5}
 
-% \begin{center}
-% {\bf \large Venue and Host Institutions}
-% \end{center}
 \onehalfspacing
 \section*{Venue and Host Institutions}
 \noindent
@@ -108,6 +104,12 @@ V Holešovičkách 747/2, Praha 8) and will be hosted by
 and Faculty of Mathematics and Physics, Charles University (MFF UK,
 Prague).
 
+% Jenom příklad
+\begin{wrapfigure}[10]{r}{0.5\textwidth}
+  \centering
+  \includegraphics[width=0.48\textwidth]{Impakt-troja_1}
+\end{wrapfigure}
+
 \textbf{Charles University} (Latin: Universitas Carolina) is the oldest and
 largest university in the Czech Republic. It is one of the oldest
 universities in Europe in continuous operation.
@@ -119,7 +121,7 @@ conducts both fundamental and strategic applied research. The
   Nuclear Physics Institute of the Czech Academy of Sciences, a
 public research institution, conducts research in a broad field of
 nuclear physics, experimental as well as theoretical.
-% 
+%
 \textbf{Prague} with its rich history and stunning architecture is one of the
 world's most popular tourist destinations. It is classified as an
 ``Alpha-{}'' global city according to GaWC studies. Prague ranked sixth
@@ -129,9 +131,6 @@ Destination Performance Index measuring performance of conference
 tourism in 2021.
 
 
-% \begin{center}
-% {\bf \large Travel}
-% \end{center}
 \section*{Travel}
 \noindent
 %
@@ -146,9 +145,6 @@ and “Pelc Tyrolka”. Alternatively, the campus is about 15 minutes walk from 
 parking is free and accessible nonstop.
 
 
-% \begin{center}
-% {\bf \large Local Organizing Committee (preliminary)}
-% \end{center}
 \section*{Local Organizing Committee (preliminary)}
 \noindent
 The conference will be organized by a mixed committee of scientists from ÚJF, Řež and MFF UK, Prague.
@@ -161,9 +157,6 @@ The local organizing committee will include:
 \item Jiří Mareš (ÚJF, Řež; theory) 
 \end{t_sq_itemize}
 
-% \begin{center}
-% {\bf \large International Advisory Committee and time schedule}
-% \end{center}
 \section*{International Advisory Committee and time schedule}
 \noindent
 %
@@ -175,9 +168,6 @@ We assume to set the IAC to (datum), they will be asked to suggest the invidet s
 The first announce about the EFB26 conference will be done in the autumn 2024, the web page
 should be already ready at that time.
 
-% \begin{center}
-% {\bf \large Topics}
-% \end{center}
 \section*{Topics}
 \noindent
 The following topics will be covered at the conference:
@@ -192,9 +182,6 @@ The following topics will be covered at the conference:
 \item Few-body aspects of many-body systems
 \end{t_sq_itemize}
 
-% \begin{center}
-% {\bf \large Scientific program}
-% \end{center}
 \section*{Scientific program}
 \noindent
 We will maintain the traditional structure of few-body conferences lasting 5 days, from Monday
@@ -205,17 +192,11 @@ participants we will have either two or three parallel sessions. We will have a 
 We also plan to host a public lecture of general interest for participants and the public on a topic related
 to the conference theme. 
 
-% \begin{center}
-% {\bf \large Social program}
-% \end{center}
 \section*{Social program}
 \noindent
 Social program will include a welcome reception (at MFF UK), conference dinner (in the Prague center). 
 We also will organize Prague city center excursion and excursions to ÚJF / MFF UK laboratories.
 
-% \begin{center}
-% {\bf \large Registration fee will include}
-% \end{center}
 \section*{Registration fee will include}
 \noindent
 Conference kit, coffee breaks, lunches, welcome reception, conference dinner, excursions. Early bird registration fee, 20\%
@@ -227,9 +208,6 @@ Fee for an accompanying person will include welcome reception and the conference
 {\bf Plus:} Meeting rooms,  audio visual equipment,  free WiFi(?).
 
 
-% \begin{center}
-% {\bf \large Budget}
-% \end{center}
 \section*{Budget}
 \noindent
 We assumed 150 participants, among them 30 students in estimating the conference fee.
@@ -256,9 +234,6 @@ CZK/EUR exchange rate (CZK = Czech koruna) will also play a role.
 \end{tabular}
 \end{table}
 
-% \begin{center}
-% {\bf \large Accommodation}
-% \end{center}
 \section*{Accommodation}
 \noindent
 Accommodation will not be included in the registration fee and must be organized by the participants.
@@ -270,31 +245,23 @@ the conference. The typical current costs per night ranges from about 75 EUR.
 {\bf For students:} We plan to arrange and offer inexpensive accommodation at the nearby dormitory ``Kolej 17.
 Listopadu - Univerzita Karlova'' (Pátkova 2136/3, Prague 8).
 
-% \begin{center}
-% {\bf \large Academic and Medical Conference Agency (AMCA)}
-% \end{center}
-\section*{Academic and Medical Conference Agency (AMCA)}
-\noindent
-Services of AMCA will be used for registration, conference fee collecting, book of abstract printing, catering, social dinner.
+\section*{Other information}
 
-% \begin{center}
-% {\bf \large Visa}
-% \end{center}
-\section*{Visa}
-\noindent
-%
-Czech Republic does not require visas from EU/EEA citizens for stays of any duration or for any purpose.
-Citizens of Australia, Brazil, Canada, Israel, Japan, Mexico, New Zealand, South Korea, Taiwan, the US and
-some other countries will also not require a visa for stays of up to 90 days. Citizens of China, India, Iran,
-Pakistan, Russia, South Africa, Turkey and some other countries require a visa. We will write letters of invitation
-to those participants who need visas well in advance and will recommend they apply for the visa well in advance.
+\paragraph{Academic and Medical Conference Agency (AMCA)}
+Services of AMCA will be used for registration, conference fee
+collecting, book of abstract printing, catering, social dinner.
 
-% \begin{center}
-% {\bf \large Weather}
-% \end{center}
-\section*{Weather}
-\noindent
-%
+\paragraph{Visa}
+Czech Republic does not require visas from EU/EEA citizens for stays
+of any duration or for any purpose. Citizens of Australia, Brazil,
+Canada, Israel, Japan, Mexico, New Zealand, South Korea, Taiwan, the
+US and some other countries will also not require a visa for stays of
+up to 90 days. Citizens of China, India, Iran, Pakistan, Russia, South
+Africa, Turkey and some other countries require a visa. We will write
+letters of invitation to those participants who need visas well in
+advance and will recommend they apply for the visa well in advance.
+
+\paragraph{Weather}
 Daytime high temperatures in Prague tend to be around 24 ${}^\circ$C early in August but fall off to near
 21-22 ${}^\circ$C near the month's end. A few of the warmer afternoons, especially early in August, can reach
 up near 31 ${}^\circ$C.
