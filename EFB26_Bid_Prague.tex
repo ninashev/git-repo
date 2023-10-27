@@ -3,9 +3,10 @@
 \usepackage[english]{babel}
 
 % \usepackage[disable]{todonotes}
-\usepackage{todonotes}
-\newcommand{\dg}[1]{\todo[inline]{DG: #1}}
-
+% \usepackage{todonotes}
+% \newcommand{\dg}[1]{\todo[inline]{DG: #1}}
+\usepackage{siunitx}
+\usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{wrapfig}
 \usepackage[compact]{titlesec}
@@ -13,7 +14,7 @@
 % Pollock
 \definecolor{C0}{HTML}{000000}
 \definecolor{C1}{HTML}{511818}
-%\definecolor{C2}{HTML}{3b4666}
+% \definecolor{C2}{HTML}{3b4666}
 \definecolor{C2}{HTML}{1c4bab}
 \definecolor{C3}{HTML}{222ee0}
 \definecolor{C4}{HTML}{a04540}
@@ -29,7 +30,7 @@ pdfborderstyle={/S/U/W 1},
 % linkbordercolor=C2,
 % urlbordercolor=C2,
 % urlcolor=C2%
-% urlbordercolor=C2,
+urlbordercolor=C2,
 urlcolor=C3%
 ]{hyperref}
 % \urlstyle{same}
@@ -55,119 +56,121 @@ urlcolor=C3%
 
 
 \noindent
-To: Natasha Timofeyuk \\
-Chair of the European Research Committee \\
+To: Natasha Timofeyuk \newline
+Chair of the European Research Committee \newline
 on Few-Body Problems in Physics
 
 \bigskip
 \noindent
 \doublespacing
-{ \Large Proposal for the}
+% \begin{center}
+  \noindent
+  {\Large Conference proposal:}
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=1.0\textwidth]{Prague_foto_cut.jpg}
-\end{figure}
-%
-%\bigskip\bigskip
-
-\vspace{-1cm}
-\begin{center}
-\noindent
+  \bigskip
 \doublespacing
-{\color{C2}\fontfamily{qag}\selectfont%
-  \LARGE \bf  26th  European Conference on \\[2mm ] Few-Body Problems in Physics (EFB26)} \\[2mm]
-{\Large Prague, Czech Republic, July-August 2026%
-}
-\end{center}
-
-\vspace{1cm}
-%\bigskip
-% \renewcommand{\baselinestretch}{1.5}
+\noindent{\color{C2}\fontfamily{qag}\selectfont%
+  \LARGE\bf  26th  European Conference on
+  Few-Body Problems in Physics (EFB26)} \newline
+{\Large Prague, Czech Republic, July--August 2026}\\
+\includegraphics[width=1.0\textwidth]{Prague_foto_cut}
+% \end{center}
 
 \onehalfspacing
 \section*{Venue and Host Institutions}
 \noindent
-The Conference will take place at the
-\href{https://www.mff.cuni.cz/en}{Faculty of Mathematics and Physics},
-\href{https://cuni.cz/UKEN-1.html}{Charles University}
-(\href{https://maps.app.goo.gl/YLm43Nb5XHHziMX16}{Troja Campus})
-% , V Holešovičkách 747/2, Praha 8)
-and will be hosted by
+The EFB26 conference will take place in Prague in 2026, one week in
+the period July--August. It will be hosted by the
 \href{http://www.ujf.cas.cz/en/}{Nuclear Physics Institute} of the
 \href{https://www.avcr.cz/en/}{Czech Academy of Sciences} (ÚJF, Řež)
-and Faculty of Mathematics and Physics, Charles University (MFF UK,
-Prague).
-% Jenom příklad
-\begin{wrapfigure}[10]{r}{0.5\textwidth}
-  \centering
-  \includegraphics[width=0.48\textwidth]{Impakt-troja_1}
-\end{wrapfigure}
+and \href{https://www.mff.cuni.cz/en}{Faculty of Mathematics and
+  Physics}, \href{https://cuni.cz/UKEN-1.html}{Charles University}
+(MFF UK, Prague).
 
-\paragraph{Charles University} (Latin: Universitas Carolina) is the oldest and
-largest university in the Czech Republic. It is one of the oldest
-universities in Europe in continuous operation.
-% 
+\paragraph{Charles University} (Latin: Universitas Carolina) is the
+largest university in the Czech Republic. Being founded in 1348, it is
+one of the oldest universities in Europe in continuous operation.
 
-\paragraph{The Czech Academy of Sciences} is the leading non-university public
-research institution in the Czech Republic. Its tradition goes back to
-the Royal Bohemian Society of Sciences founded in 1784. The Academy
-conducts both fundamental and strategic applied research. The
-  Nuclear Physics Institute of the Czech Academy of Sciences, a
-public research institution, conducts research in a broad field of
+\paragraph{The Czech Academy of Sciences} is the leading
+non-university research institution in the Czech Republic. Its
+tradition goes back to the Royal Bohemian Society of Sciences founded
+in 1784. The Academy conducts
+% both fundamental and strategic applied
+research in a broad spectrum of natural, technical, and social
+sciences and humanities.
+% various fields of science.
+The Nuclear Physics Institute of the Czech Academy of
+Sciences conducts research in
+% a broad field of
 nuclear physics, experimental as well as theoretical.
-%
 
-\paragraph{Prague} with its rich history and stunning architecture is one of the
-world's most popular tourist destinations. It is classified as an
-``Alpha-{}'' global city according to GaWC studies. Prague ranked sixth
-in the Tripadvisor world list of best destinations in 2016 (fifth in
-2014). Furthermore, the city was ranked 7th in the world ICCA
-Destination Performance Index measuring performance of conference
-tourism in 2021.
+\paragraph{Prague} with its rich history and stunning architecture is
+one of the world's most popular tourist destinations.
+% It is classified
+% as an ``Alpha-{}'' global city according to GaWC studies.
+Prague was ranked the 6th in the Tripadvisor world list of best
+destinations in 2016 (the 5th in 2014), and it was ranked the 7th in
+the world ICCA Destination Performance Index measuring performance of
+conference tourism in 2021.
 
+\paragraph{Conference venue} The LOC is currently considering two
+options for the conference site:
+\begin{t_sq_itemize}
+\item
+  Faculty of Mathematics and Physics, Charles University
+  (\href{https://maps.app.goo.gl/YLm43Nb5XHHziMX16}{Troja Campus})
+  -- less expensive but farther from the city center
+  \item Congress center ``\href{https://www.masarykovakolej.cz/en/im-organizing-event}{Masarykova Kolej}'' -- more expensive but better
+    accessible, Prague Castle is in walking distance
+  \end{t_sq_itemize}
+  \begin{center}
+    \includegraphics[height=5cm]{Impakt-troja_1}
+    \hspace{7mm}
+    \includegraphics[height=5cm]{MK}\\[-1.5mm]
+    \hspace{3mm}{\small Troja Campus}\hspace{5.4cm}{\small Masarykova Kolej}
+  \end{center}
 
 \section*{Travel}
 \noindent
-%
 Due to its location in the heart of Europe, Prague is easily
-accessible. The most popular ways of getting to Prague are by plane or
-by train. Prague has an extensive public transport network that is
-rated as one of the best and most reliable in Europe.
+accessible by plane, train, bus or car. Prague has an extensive public
+transport network that is rated as one of the best and most reliable
+in Europe.
+% {\bf Troja Campus, transport:} It is possible to travel to Troja by public transport, the closest bus stops being “Kuchyňka”
+% and “Pelc Tyrolka”. Alternatively, the campus is about 15 minutes walk from the metro station “Nádraží Holešovice”
+% (line C). It is also possible to drive to the campus by car. It is possible to park in front of the main entrance or in the courtyard;
+% parking is free and accessible nonstop.
 
-{\bf Troja Campus, transport:} It is possible to travel to Troja by public transport, the closest bus stops being “Kuchyňka”
-and “Pelc Tyrolka”. Alternatively, the campus is about 15 minutes walk from the metro station “Nádraží Holešovice”
-(line C). It is also possible to drive to the campus by car. It is possible to park in front of the main entrance or in the courtyard;
-parking is free and accessible nonstop.
 
-
-\section*{Local Organizing Committee (preliminary)}
+\section*{Local Organizing Committee}
 \noindent
 %
 The conference will be organized by a mixed committee of scientists from ÚJF, Řež and MFF UK, Prague.
 The local organizing committee will include:
 \begin{t_sq_itemize}
-\item Nina Shevchenko, chair (ÚJF, Řež; theory)
-\item Martin Čížek (MFF UK, Prague; theory)
-\item Zdeněk Doležal (MFF UK, Prague; experiment)
-\item Tomáš Dytrych (ÚJF, Řež; theory)
-\item Daniel Gazda (ÚJF, Řež; theory)
-\item Karel Houfek (MFF UK, Prague; theory)
-\item Jiří Mareš (ÚJF, Řež; theory)
-\item Zdeněk Mašín (MFF UK, Prague; theory)
+  \def\ujf{ÚJF}%{ÚJF, Řež}
+  \def\mff{MFF UK}%{MFF UK, Prague}
+\item Nina Shevchenko, chair (\ujf)
+\item Martin Čížek (\mff)
+\item Zdeněk Doležal (\mff)
+\item Tomáš Dytrych (\ujf)
+\item Daniel Gazda (\ujf)
+\item Karel Houfek (\mff)
+\item Jiří Mareš (\ujf)
+\item Zdeněk Mašín (\mff)
 \end{t_sq_itemize}
-\dg{Exp.\ UOCHB, JH?}
 
 \section*{International Advisory Committee and time schedule}
 \noindent
-%
-Members will be chosen from the lists of advisors from past conferences. New names
-will be added in consultation with the European few-body research committee to ensure that all
-areas of few-body research are covered. 
+The members of IAC will be selected from the lists of advisors from
+past EFB conferences. New members could be added after consultation
+with the European Few-Body Research Committee to ensure that all areas
+of few-body research are covered.
 
-We assume to set the IAC to the summer 2024, they will be asked to suggest the invited speakers. 
-The first announce about the EFB26 conference will be done in the autumn 2024, the web page
-should be already ready at that time.
+The IAC will be established in summer 2024, when the members will be
+asked to suggest invited speakers. The first announcement of the EFB26
+conference will be done in autumn 2024, the web page should be already
+available at that time.
 
 \section*{Topics}
 \noindent
@@ -185,97 +188,118 @@ The following topics will be covered at the conference:
 
 \section*{Scientific program}
 \noindent
-We will maintain the traditional structure of few-body conferences lasting 5 days, from Monday
-to Friday. We will leave Wednesday afternoon for excursion and/or discussions. We will have plenary sessions
-in the mornings and parallel sessions in the afternoons. There will be about 30 plenary talks lasting
-30 minutes, including the talks by young researcher awardees. Depending on the total number of
-participants we will have either two or three parallel sessions. We will have a poster session as well.
-We also plan to host a public lecture of general interest for participants and the public on a topic related
-to the conference theme. 
+The conference will maintain the traditional structure of few-body
+conferences lasting 5 days, from Monday to Friday. We will leave
+Wednesday afternoon for excursions and/or discussions. There will be
+plenary sessions in the mornings and parallel sessions in the
+afternoons. There will be about 30 plenary talks lasting 30 minutes
+each, including the talks of the Young Researcher Award winners.
+Depending on the total number of participants, there will be either
+two or three parallel sessions. There will be a poster session as
+well. We also plan to host a public lecture of general interest for
+participants and the public on a topic related to the conference
+theme.
+
+\section*{Proceedings}
+\noindent
+At the moment, we plan to publish the EFB26 proceedings online or to
+adopt the scheme of the EFB25 conference, namely to publish oral
+contributions and selected posters in a special issue of the journal
+Few-Body Systems if possible. We intend to discuss this issue with the
+members of IAC since the proceedings costs could increase the fee by
+\(\approx 50\)~EUR.
 
 \section*{Social program}
 \noindent
-Social program will include a welcome reception (at MFF UK), conference dinner (in the Prague center). 
-We also will organize Prague city center excursion and excursions to ÚJF / MFF UK laboratories.
+Social program will include a welcome reception, conference dinner,
+Prague city center sightseeing and excursions to experimental
+laboratories.
 
-\section*{Registration fee will include}
+\section*{Budget, registration fee}
 \noindent
-Conference kit, coffee breaks, lunches, welcome reception, conference dinner, excursions plus
-meeting rooms,  audio visual equipment,  free WiFi. We will have an early bird registration fee and
-reduced fee for students. No on-line participants are planned. 
+We assume 150 participants, including 30 students in estimating the
+conference fee. We also took into account promised financial
+contribution from NPI. We intend to apply for a NUPECC support for
+young physicists. Of course, we will make efforts to find other
+sponsors in order to reduce the fee and support young participants in
+particular.
 
-Lunches (preliminary) will be organized at Menza Troja (Pátkova 3, Praha 8), in walking distance from
-the conference place.
+\paragraph{The registration fee} will include conference kit, coffee
+breaks, lunches, welcome reception, conference dinner, excursions, and
+possibly proceedings. It will be also used to cover the costs of the
+conference center including audio-visual equipment, and the costs of
+the public lecture. Lunches will be arranged directly at the
+conference site or in walking distance.
+
+We will have an early-bird registration fee and reduced fee for
+students. No on-line participants are planned. The fee for
+accompanying persons will include welcome reception, conference
+dinner, public lecture, and excursions. We intend to keep the fees at
+the level of the EFB25 conference:
+\begin{table}[h]
+  \centering
+  \begin{tabular}{ll}
+    \hline \\[-1mm]
+    &   Price in EUR  \\[1mm]
+    \hline \\[-1mm]
+    Early-bird fee & 500  \\[1mm]
+    Full fee &  550 \\[1mm]
+    Early-bird student fee & 350  \\[1mm]
+    Full student fee &  400 \\[1mm]
+    Accompanying person fee & 100  \\[1mm]
+    \hline
+  \end{tabular}
+\end{table}
+
 
 %Fee for an accompanying person will include welcome reception and the conference dinner (?).
 %{\bf Plus:} 
-
-
-\section*{Budget}
-\noindent
-We assumed 150 participants, among them 30 students in estimating the conference fee.
-We hope to get extra funding from the NPI and will apply for support from NUPECC.
-In addition, we will use any other emerging opportunity to apply for the conference
-support, thereby reducing the fee and making support possible for those with special circumstances.
-
-We plan to publish proceedings online or to use the same scheme as at the EFB25 conference, when
-the journal "Few Body Systems" publish a special issue with the papers from oral presenters and
-selected posters (if editors of FBS agree).
-
 %We show our estimates in the Table below which includes both lower and higher estimates. The upper
 %estimate is calculated assuming a conservative possible rise of 20 \% in prices in three years time.  
 %CZK/EUR exchange rate (CZK = Czech koruna) will also play a role (1 EUR = 24.66 CZK at 25.10.23).
 %
-We plan to keep the fees at the level of the EFB25 conference:
-\begin{table}[h]
-\centering
-\begin{tabular}{ll}
-\hline \\[-1mm]
- &   Price in EUR  \\[1mm]
-\hline \\[-1mm]
- Early-bird fee & 500  \\[1mm]
- Full fee &  550 \\[1mm]
- Early-bird student fee & 350  \\[1mm]
- Full student fee &  400 \\[1mm]
-% Accompanying person fee & number  \\[1mm]
-\hline
-\end{tabular}
-\end{table}
 
 \section*{Accommodation}
 \noindent
-Accommodation will not be included in the registration fee and must be organized by the participants.
-Prague offers many possibilities for accommodation which can be found using usual booking portals. Close
-to “Nádraží Holešovice” metro station are situated: Plaza Prague Hotel, Hotel Extol Inn Praha, Hotel Expo, Hotel
-Castle Residence. We intend to arrange accommodation for reduced rates in selected hotels during the time of
-the conference. The typical current costs per night ranges from about 75 EUR.
+Accommodation will not be included in the registration fee and must be
+organized by the participants. Prague offers many possibilities for
+accommodation which can be found using usual booking portals.
 
-\paragraph{For students} we plan to arrange and offer inexpensive accommodation at the nearby dormitory \href{https://kam.cuni.cz/KAMEN-54.html}{``Kolej 17.\ Listopadu''}.
-%(Pátkova 2136/3, Prague 8).
+We intend to arrange accommodation for the EFB26 participants at
+reduced rates in selected hotels during the time of the conference.
+The typical current costs per night in 3/4* hotels are about
+75--110~EUR.
+
+\paragraph{For students} we plan to arrange inexpensive accommodation
+at nearby dormitories.
 
 \section*{Other information}
 
 \paragraph{Academic and Medical Conference Agency (AMCA)}
-Services of AMCA will be used for registration, conference fee
-collecting, book of abstract printing, catering, social dinner.
+Services of AMCA will be used for registration, collection of the
+conference fee, editing and printing of the book of abstract,
+catering, social dinner.
 
 \paragraph{Visa requirements}
 Czech Republic does not require visas from EU/EEA citizens for stays
-of any duration or for any purpose. Citizens of Australia, Brazil,
-Canada, Israel, Japan, Mexico, New Zealand, South Korea, Taiwan, the
-US and some other countries will also not need a visa for stays of
-up to 90 days. Citizens of China, India, Iran, Pakistan, Russia, South
-Africa, Turkey and some
-\href{https://www.mzv.cz/jnp/en/information_for_aliens/short_stay_visa/list_of_states_whose_citizens_are/index.html}{other countries} require a visa.
+of any duration or for any purpose. Citizens of
+\href{https://www.mzv.cz/jnp/en/information_for_aliens/short_stay_visa/list_of_states_whose_citizens_are_exempt/index.html}{several
+  non-Schengen countries} do not need a visa for non-profit stays of
+up to 90 days. However, citizens of some
+\href{https://www.mzv.cz/jnp/en/information_for_aliens/short_stay_visa/list_of_states_whose_citizens_are/index.html}{other
+  countries} might require a visa to enter the Czech Republic.
 % We will provide
 % letters of invitation to those participants who need visas well in
 % advance and will recommend they apply for the visa well in advance.
 
 \paragraph{Weather}
-Daytime high temperatures in Prague tend to be around 24 ${}^\circ$C early in August but fall off to near
-21-22 ${}^\circ$C near the month's end. A few of the warmer afternoons, especially early in August, can reach
-up near 31 ${}^\circ$C.
-
+The Czech Republic has a temperate climate, situated in the transition
+zone between the oceanic and continental climate types, with warm
+summers. July and August are the warmest months of the year. On
+average, summer day temperatures are about
+\qty[parse-numbers=false]{20-30}{\celsius}
+(\qty[parse-numbers=false]{36-54}{\degree F}). Summer
+is also characterized by rain and thunderstorms.
 \end{document}
 
 
