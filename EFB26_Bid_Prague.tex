@@ -44,6 +44,11 @@ urlcolor=C3%
 
 \usepackage{setspace}
 
+\newif\iftwocolloc
+\twocolloctrue
+% \twocollocfalse
+\iftwocolloc\usepackage{multicol}\else{}\fi
+
 \newcommand*\sq{\mathbin{\vcenter{\hbox{\rule{.8ex}{.8ex}}}}}
 \newcommand*\ssq{\mathbin{\vcenter{\hbox{\rule{.6ex}{.6ex}}}}}
 \newenvironment{t_sq_itemize}
@@ -63,7 +68,6 @@ on Few-Body Problems in Physics
 \bigskip
 \noindent
 \doublespacing
-% \begin{center}
   \noindent
   {\Large Conference proposal:}
 
@@ -74,7 +78,6 @@ on Few-Body Problems in Physics
   Few-Body Problems in Physics (EFB26)} \newline
 {\Large Prague, Czech Republic, July--August 2026}\\
 \includegraphics[width=1.0\textwidth]{Prague_foto_cut}
-% \end{center}
 
 \onehalfspacing
 \section*{Venue and Host Institutions}
@@ -83,19 +86,20 @@ The EFB26 conference will take place in Prague in 2026, one week in
 the period July--August. It will be hosted by the
 \href{http://www.ujf.cas.cz/en/}{Nuclear Physics Institute} (ÚJF)
 of the
-\href{https://www.avcr.cz/en/}{Czech Academy of Sciences} (CAS),
+\href{https://www.avcr.cz/en/}{Czech Academy of Sciences} (CAS);
 \href{https://www.mff.cuni.cz/en}{Faculty of Mathematics and
   Physics} (MFF), \href{https://cuni.cz/UKEN-1.html}{Charles
-  University} (CUNI),
+  University} (CUNI);
 and
 \href{https://www.jh-inst.cas.cz/}{The Heyrovský Institute of Physical
   Chemistry} (JH), CAS.
 
 \paragraph{Charles University} (Latin: Universitas Carolina) is the
-largest university in the Czech Republic. Being founded in 1348, it is
-one of the oldest universities in Europe in continuous operation.
-Faculty of Mathematics and Physics, CUNI carries out research and
-training in physics, mathematics and computer science.
+largest university in the Czech Republic, ranked amongst the top
+\qty{2}{\percent} of universities in the world. Being founded in 1348,
+it is one of the oldest universities in Europe in continuous
+operation. Faculty of Mathematics and Physics, CUNI carries out
+research and training in physics, mathematics and computer science.
 
 \paragraph{The Czech Academy of Sciences} is the leading
 non-university research institution in the Czech Republic. Its
@@ -105,7 +109,7 @@ technical, and social sciences and humanities. The Nuclear Physics
 Institute, CAS conducts research in nuclear physics, experimental as
 well as theoretical. The Heyrovský Institute of Physical Chemistry,
 CAS promotes the scientific legacy of the Nobel laureate,
-Prof.~Jaroslav Heyrovský, in fields related to physical chemistry.
+Jaroslav Heyrovský, in fields related to physical chemistry.
 
 \paragraph{Prague} with its rich history and stunning architecture is
 one of the world's most popular tourist destinations. Prague was
@@ -145,10 +149,10 @@ in Europe.
 
 \section*{Local Organizing Committee}
 \noindent
-%
-The conference will be organized by a mixed committee of scientists
-from ÚJF, MFF and JH.
-The local organizing committee will include:
+The conference will be organized by scientists exploring few-body
+phenomena in diverse fields of physics and chemistry. The local
+organizing committee will include:
+\iftwocolloc\begin{multicols}{2}\else{}\fi
 \begin{t_sq_itemize}
   \def\ujf{ÚJF}%{ÚJF AVČR, Řež}
   \def\jh{JH}%{JH AVČR, Prague}
@@ -158,17 +162,21 @@ The local organizing committee will include:
 \item Zdeněk Doležal (\mff)
 \item Tomáš Dytrych (\ujf)
 \item Juraj Fedor (\jh)
+\item[]{}
 \item Daniel Gazda (\ujf)
 \item Karel Houfek (\mff)
 \item Jiří Mareš (\ujf)
 \item Zdeněk Mašín (\mff)
 \end{t_sq_itemize}
+\iftwocolloc\end{multicols}\else{}\fi
 
+\iftwocolloc\noindent\else{}\fi
 The members of LOC have ample experience with organizing various
 scientific conferences, workshops and schools, such as: ICHEP (2020,
-2024), HYP 2022, AttoChem Prague 2022, Mesons \& Light Nuclei (1998,
-2001), EMMI Workshop Trieste 2023, several ECT* workshops in Trento,
-more than 30 years of Indian-Summer School of Physics.
+2024), HYP 2022, IMAMPC 2022, AttoChem Prague 2022, Mesons \& Light
+Nuclei (1998, 2001), 2nd Conf.\ Cost Action MultiChem 2023, EMMI
+Workshop Trieste 2023, DEA workshop 2018, several ECT* workshops in
+Trento, more than 30 years of Indian-Summer School of Physics.
 
 \section*{International Advisory Committee and time schedule}
 \noindent
@@ -253,8 +261,9 @@ the level of the EFB25 conference:
     \hline \\[-1mm]
     Early-bird fee & 500  \\[1mm]
     Full fee &  550 \\[1mm]
-    Early-bird student fee & 350  \\[1mm]
-    Full student fee &  400 \\[1mm]
+    % Early-bird student fee & 350  \\[1mm]
+    % Full student fee &  400 \\[1mm]
+    Student fee &  350 \\[1mm]
     Accompanying person fee & 100  \\[1mm]
     \hline
   \end{tabular}
